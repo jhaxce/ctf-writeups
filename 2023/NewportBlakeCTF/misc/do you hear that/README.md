@@ -25,7 +25,7 @@ Then saving as a wav file.
 
 ![4](images/image4.png)
 
-After listening to the audio we identified the wave pattern as morse code (but not) and using the online tool Morse Code Adaptive Audio Decoder from `morsecode.world` we found th flag.
+After listening to the audio we identified the wave pattern as morse code (but not) and using the online tool Morse Code Adaptive Audio Decoder from `morsecode.world` we found the flag.
 
 ![5](images/image5.png)
 
