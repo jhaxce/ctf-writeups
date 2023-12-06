@@ -3,7 +3,7 @@
 A CTF organized by the cybersecurity clubs of Newport High School and Blake High School!
 
 ## Join the Discord!
-[~~discord.gg/UdvUJBtCsp~~](discord.gg/UdvUJBtCsp)
+[~~discord.gg/UdvUJBtCsp~~](http://discord.gg/UdvUJBtCsp)
 
 ## Categories
 - Web Exploitation
