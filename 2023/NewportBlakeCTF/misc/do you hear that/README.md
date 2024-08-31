@@ -5,7 +5,7 @@
 ## About the Challenge
 We were given an image called `help.png` (You can download the file [here](help.png)) and looking at the zsteg output of the image
 
-![1](image.png)
+![1](images/image.png)
 
 It has a wav file inside the image.
 
